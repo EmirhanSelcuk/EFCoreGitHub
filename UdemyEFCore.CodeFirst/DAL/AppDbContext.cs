@@ -14,8 +14,8 @@ namespace UdemyEFCore.CodeFirst.DAL
         //public DbSet<Manager> Managers { get; set; }
         //public DbSet<Employee> Employess { get; set; }
 
-        //public DbSet<Category> Categories { get; set; }
-        //public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Products { get; set; }
 
         //public DbSet<ProductFeature> productFeature { get; set; }
 
@@ -32,7 +32,7 @@ namespace UdemyEFCore.CodeFirst.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            
          
             base.OnModelCreating(modelBuilder);
         }
